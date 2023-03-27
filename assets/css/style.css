@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;600;700&display=swap');
+@import url(./comments.css);
+@import url(./eastern-food.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./location.css);
+@import url(./media.css);
+@import url(./more-popular.css);
+@import url(./reset.css);
+
+:root{
+    --red: #DA2535;
+    --gray: #616161;
+    --white: #FBFBFB;
+    --black: #292929;
+    --white-200: #F3F3F3;
+    font-family: 'Inter', 'Montserrat', sans-serif;
+    --font-principal: 'Montserrat';
+    --font-secundaria: 'Inter';
+}
+
