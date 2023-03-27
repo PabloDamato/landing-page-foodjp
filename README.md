@@ -15,19 +15,10 @@ Projeto realizado com o objetivo de reproduzir uma página de culinária orienta
 
 ## ✍️ Layout
 
-<html>
-
-<style>
-  .center {
-    text-align: center;
-    vertical-align: top;
-  }
-</style>
-
 <table>
   <tr>
-    <td class="center"><img src="./assets/img/layout-desktop.png" alt="layout-desktop"></td>
-    <td class="center"><img src="./assets/img/layout-mobile.png" alt="layout-mobile"></td>
+    <td align="center"><img src="./assets/img/layout-desktop.png" alt="layout-desktop"></td>
+    <td align="center"><img src="./assets/img/layout-mobile.png" alt="layout-mobile"></td>
   </tr>
 </table>
 
@@ -39,22 +30,9 @@ Projeto realizado com o objetivo de reproduzir uma página de culinária orienta
 
 ## Desenvolvedores
 
-<html>
-
-<style>
-  .center-text {
-    text-align: center;
-    
-  }
-
-  .profile {
-    border-radius: 50%;
-  }
-</style>
-
 <table align="center">
   <tr>
-    <td class="center-text">
+    <td align="center">
       <div>
         <img src="https://avatars.githubusercontent.com/u/75569069?v=4" width="120px;" alt="Foto no GitHub" class="profile"/><br>
           <b> Pablo Damato </b><br>
@@ -62,7 +40,7 @@ Projeto realizado com o objetivo de reproduzir uma página de culinária orienta
             <a href="https://github.com/PabloDamato" alt="GitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
       </div>
     </td>
-    <td class="center-text">
+    <td align="center">
       <div>
         <img src="https://avatars.githubusercontent.com/u/106491276?v=4" width="120px;" alt="Foto no GitHub" class="profile"/><br>
           <b>Arthur Vinícius</b><br>
@@ -70,7 +48,7 @@ Projeto realizado com o objetivo de reproduzir uma página de culinária orienta
             <a href="https://github.com/Arthurvini17" alt="GitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
       </div>
     </td>
-    <td class="center-text">
+    <td align="center">
        <div>
         <img src="https://avatars.githubusercontent.com/u/115590346?v=4" width="120px;" alt="Foto no GitHub" class="profile"/><br>
           <b>Leandro Santos</b><br>
@@ -80,6 +58,4 @@ Projeto realizado com o objetivo de reproduzir uma página de culinária orienta
     </td>
   </tr>
 </table>
-
-</html>
 
