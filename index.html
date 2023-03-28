@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,56 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script type="text/javascript" src="./assets/js/main.js" defer></script>
     <title>Landing-page FoodJP</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <header id="header" class="cabecalho"></header>
-    <section id="eastern-food" class="comida-oriental"></section>
-    <section id="more-popular" class="mais-populares" ></section>
+    <header id="header" class="cabecalho">
+        <a href="#">
+            <h1 class="logo">Food<span>JP</span></h1>
+        </a>
+
+        
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <input class="btn btn-enter" type="button" value="Entrar">
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </header>
+    <section id="eastern-food" class="comida-oriental">
+        <div class="comida-oriental-container">
+            <div class="comida-oriental-conteudo">
+                <h2>Comida Oriental</h2>
+                <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e
+                    ingredientes frescos.</p>
+                <input class="btn btn-cardapio" type="button" value="Cardápio">
+            </div>
+            <div class="comida-oriental-imagem">
+                <img src="assets/img/sushi-japanese.png" alt="imagem de sushi japones com rashi">
+            </div>
+        </div>
+        <div class="comida-tradicional-container">
+            <div class="comida-tradicional-imagem">
+                <img src="assets/img/img segurando prato.png" alt="imagem de sushi japones com rashi">
+            </div>
+            <div class="comida-tradicional-conteudo">
+                <h2>Feita de forma
+                    <br>Tradicional
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+                <a href="/" class="ler-mais">Ler mais sobre o modo de preparo </a>
+            </div>
+        </div>
+    </section>
+    <section id="more-popular" class="mais-populares"></section>
     <section id="comments" class="comentarios"></section>
     <section id="location" class="localizacao"></section>
     <footer id="footer" class="rodape"></footer>
 </body>
+
 </html>

@@ -1,0 +1,121 @@
+@media(max-width: 768px) {
+    #menu-icon {
+        display: block;
+        font-size: 4rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 12%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--white);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        transition: .3s ease;
+        z-index: 10;
+        display: none;
+        animation: fade 0.5s ease-in-out
+    }
+
+    .navbar.active{
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    /*eastern-food*/
+
+    .comida-oriental-container,
+    .comida-tradicional-container{
+        margin-top: 5.7rem;
+        flex-direction: column;
+    }
+
+    .comida-oriental-imagem{
+        display: none;
+    }
+
+    .btn.btn-cardapio{
+        width: 100%;
+    }
+
+    .comida-tradicional-imagem{
+        margin-bottom: 5.6rem;
+    }
+
+    .comida-tradicional-conteudo{
+        text-align: center;
+        margin-bottom: 5.6rem;
+    }
+}
+
+
+@media(max-width: 412px){
+    .cabecalho{
+        padding: 2.5rem 2rem 0;
+    }
+    
+    #menu-icon {
+        font-size: 3.6rem;
+    }
+
+    .logo{
+        font-size: 1.8rem;
+    }
+
+    .btn-enter{
+        position: absolute;
+        top: 15%;
+        right: 2px;
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+        border: 1px solid var(--red);
+        z-index: 11;
+        display: none;
+        animation: fade 0.3s ease-in-out
+    }
+
+    .btn.btn-enter:hover{
+        border: 1px solid var(--red);
+    }
+
+    .btn-enter.active{
+        display: block;
+    }
+
+    /*eastern-food*/
+
+    .comida-oriental-conteudo h2{
+        font-size: 3.2rem;
+    }
+
+    .comida-tradicional-conteudo h2{
+        font-size: 2.4rem;
+    }
+
+    .comida-oriental-conteudo p,
+    .comida-tradicional-conteudo p,
+    .comida-tradicional-container .ler-mais,
+    .btn.btn-cardapio{
+        font-size: 1.6rem;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+
+}
