@@ -1,9 +1,77 @@
-@media screen and (min-width: 1024px) {
+@media(min-width: 1250px) {
+    /*more-popular*/
+    #more-popular .container-more-popular {
+        gap: 4.4rem !important;
+    }
+
+    .options {
+        width: 38rem !important;
+        height: 45rem !important;
+        border-radius: 3.2rem !important;
+    }
+
+    .options .description-options {
+        font-size: 1.8rem !important;
+    }
+
+    /*comments*/
+    #comments .comments-title {
+        margin-right: auto;
+    }
+
+    .comments-user {
+        width: 60.4rem;
+        height: 39rem;
+        border-radius: 1.6rem;
+    }
+
+    .comments-user img {
+        margin: 1.4rem auto auto 4rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .comments-user .name-profile {
+        margin: auto auto auto 4rem;
+    }
+
+    .comments-user .description-profile, .description-profile-2 {
+        width: 45.5rem;
+        height: 7.6rem;
+        font-size: 2.4rem !important;
+        text-align: left !important;
+        margin: auto 10.9rem auto 4rem !important;
+    }
+
+    .star {
+        margin: auto auto auto 4rem;
+    }
+
+    .star img {
+        margin: auto;
+        Width: 2.103rem;
+        height: 1.9rem;
+        border: 0.1rem;
+    }
+}
+
+@media(min-width: 1024px) {
     /*more-popular*/
     #more-popular .container-more-popular {
         display: flex;
         flex-direction: row;
         gap: 2rem;   
+    }
+
+    .options .options-title {
+        font-size: 2.5rem !important;
+        line-height: 3.5rem !important;  
+    }
+
+    /*comments*/
+    .comments-user .name-profile {
+        font-size: 2.5rem !important;
+        line-height: 3.5rem !important; 
     }
 }
 
@@ -13,11 +81,23 @@
         padding: 10rem 2.4rem 0;
     }
 
+    #more-popular .more-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4.8rem !important;
+        line-height: 5.9rem !important;
+    }
+
     /*comments*/
     #comments .container-comments {
         display: flex;
         flex-direction: row;
     }
+
+    #comments .comments-title {
+        font-size: 4.8rem;
+    }
+    
 }
 
 @media(max-width: 768px) {
