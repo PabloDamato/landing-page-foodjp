@@ -1,4 +1,9 @@
 @media(max-width: 768px) {
+    #header .cabecalho,
+    .comida-oriental{
+        padding: 2.4rem;
+    }
+
     #menu-icon {
         display: block;
         font-size: 4rem;
@@ -9,14 +14,15 @@
         top: 12%;
         left: 0;
         width: 100%;
-        padding: 1rem 3%;
+        height: 25rem;
+        padding: 1rem 2%;
         background: var(--white);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         transition: .3s ease;
         z-index: 10;
         display: none;
-        animation: fade 0.5s ease-in-out
+        animation: fade 0.3s ease-in-out
     }
 
     .navbar.active{
@@ -26,7 +32,7 @@
     .navbar a {
         display: block;
         font-size: 2rem;
-        padding: 2rem;
+        padding: 1.7rem 2rem;
     }
 
     /*eastern-food*/
@@ -71,9 +77,9 @@
 
     .btn-enter{
         position: absolute;
-        top: 15%;
-        right: 2px;
-        padding: 1rem 2rem;
+        top: 36%;
+        left: 2.8rem;
+        padding: 1rem 3rem;
         font-size: 1.8rem;
         border: 1px solid var(--red);
         z-index: 11;
