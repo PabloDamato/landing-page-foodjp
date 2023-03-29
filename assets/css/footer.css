@@ -68,14 +68,8 @@
     
 }
 
-.box  {
-display: inline-flex;
-gap: 100px   ;
-color: var(--black);
-margin-right: 50px;
+.comentarios img {
+    position: abosolute;
+    margin-right: 30px;
+    margin-bottom: 50px;
 }
-
-span {
-    color: var(--red);
-}
-
