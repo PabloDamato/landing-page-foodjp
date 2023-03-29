@@ -19,10 +19,13 @@
 }
 
 .navbar a{
-    padding: 0 9rem 0 0;
     font-size: 2.4rem;
     color: var(--black);
     transition: .3s ease;
+}
+
+.navbar a:nth-child(2){
+    padding: 0 9rem 0;
 }
 
 .navbar a:hover{
