@@ -1,0 +1,70 @@
+#more-popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-more-popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2.4rem;
+    gap: 11.771rem;
+}
+
+#more-popular .more-title {
+    color: var(--black);
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 123%;
+    margin-bottom: 11.828rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: var(--white-200);
+    width: 31.2rem;
+    height: 40.129rem;
+    border-radius: 0.8rem;
+}
+
+.options img {
+    position: relative;
+    top: -3.828rem;
+}
+
+.options .options-title{
+    position: relative;
+    color: var(--black);
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 123%;
+    margin-bottom: 1.65rem;
+}
+
+.options .description-options {
+    color: var(--gray);
+    font-family: var(--font-secundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.60514rem;
+    line-height: 160%;
+    margin: 0 3.11rem 1.321rem 3.11rem;
+    text-align: center;
+}
+
+.options span {
+    color: var(--black);
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.21029rem;
+    line-height: 3.9rem;
+}
