@@ -8,7 +8,7 @@
         display: block;
         font-size: 4rem;
     }
-
+    
     .navbar {
         position: absolute;
         top: 12%;
@@ -24,11 +24,14 @@
         display: none;
         animation: fade 0.3s ease-in-out
     }
-
+    
     .navbar.active{
         display: block;
     }
-
+    
+    .navbar a:nth-child(2){
+        padding: 0 2rem;
+    }
     .navbar a {
         display: block;
         font-size: 2rem;
