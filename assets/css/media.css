@@ -1,4 +1,5 @@
 @media(min-width: 1250px) {
+
     /*more-popular*/
     #more-popular .container-more-popular {
         gap: 4.4rem !important;
@@ -35,7 +36,8 @@
         margin: auto auto auto 4rem;
     }
 
-    .comments-user .description-profile, .description-profile-2 {
+    .comments-user .description-profile,
+    .description-profile-2 {
         width: 45.5rem;
         height: 7.6rem;
         font-size: 2.4rem !important;
@@ -56,26 +58,28 @@
 }
 
 @media(min-width: 1024px) {
+
     /*more-popular*/
     #more-popular .container-more-popular {
         display: flex;
         flex-direction: row;
-        gap: 2rem;   
+        gap: 2rem;
     }
 
     .options .options-title {
         font-size: 2.5rem !important;
-        line-height: 3.5rem !important;  
+        line-height: 3.5rem !important;
     }
 
     /*comments*/
     .comments-user .name-profile {
         font-size: 2.5rem !important;
-        line-height: 3.5rem !important; 
+        line-height: 3.5rem !important;
     }
 }
 
 @media(min-width: 768px) {
+
     /*more-popular*/
     #more-popular {
         padding: 10rem 2.4rem 0;
@@ -97,12 +101,25 @@
     #comments .comments-title {
         font-size: 4.8rem;
     }
-    
+
+}
+
+@media(max-width: 900px) {
+    .map-busca .text {
+        width: 45rem;
+        height: 5rem;
+    }
+
+    .map-busca .btn-buscar {
+        width: 13rem;
+        height: 5rem;
+      }
 }
 
 @media(max-width: 768px) {
+
     #header .cabecalho,
-    .comida-oriental{
+    .comida-oriental {
         padding: 2.4rem;
     }
 
@@ -110,7 +127,7 @@
         display: block;
         font-size: 4rem;
     }
-    
+
     .navbar {
         position: absolute;
         top: 12%;
@@ -126,94 +143,97 @@
         display: none;
         animation: fade 0.3s ease-in-out
     }
-    
-    .navbar.active{
+
+    .navbar.active {
         display: block;
     }
-    
-    .navbar a:nth-child(2){
+
+    .navbar a:nth-child(2) {
         padding: 0 2rem;
     }
+
     .navbar a {
         display: block;
         font-size: 2rem;
-        padding: 1.7rem 2rem;
+        padding: 2.6rem 2rem;
     }
 
     /*eastern-food*/
 
     .comida-oriental-container,
-    .comida-tradicional-container{
+    .comida-tradicional-container {
         margin-top: 5.7rem;
         flex-direction: column;
     }
 
-    .comida-oriental-imagem{
+    .comida-oriental-imagem {
         display: none;
     }
 
-    .btn.btn-cardapio{
+    .btn.btn-cardapio {
         width: 100%;
     }
 
-    .comida-tradicional-imagem{
+    .comida-tradicional-imagem {
         margin-bottom: 5.6rem;
     }
 
-    .comida-tradicional-conteudo{
+    .comida-tradicional-conteudo {
         text-align: center;
         margin-bottom: 5.6rem;
     }
 }
 
 
-@media(max-width: 412px){
-    .cabecalho{
+@media(max-width: 420px) {
+    .cabecalho {
         padding: 2.5rem 2rem 0;
     }
-    
+
     #menu-icon {
         font-size: 3.6rem;
     }
 
-    .logo{
+    .logo {
         font-size: 1.8rem;
     }
 
-    .btn-enter{
+    .btn-enter {
         position: absolute;
         top: 36%;
         left: 2.8rem;
         padding: 1rem 3rem;
         font-size: 1.8rem;
         border: 1px solid var(--red);
+        background: var(--red);
+        color: var(--white);
         z-index: 11;
         display: none;
         animation: fade 0.3s ease-in-out
     }
 
-    .btn.btn-enter:hover{
+    .btn.btn-enter:hover {
         border: 1px solid var(--red);
     }
 
-    .btn-enter.active{
+    .btn-enter.active {
         display: block;
     }
 
     /*eastern-food*/
 
-    .comida-oriental-conteudo h2{
+    .comida-oriental-conteudo h2 {
         font-size: 3.2rem;
     }
 
-    .comida-tradicional-conteudo h2{
+    .comida-tradicional-conteudo h2 {
         font-size: 2.4rem;
     }
 
     .comida-oriental-conteudo p,
     .comida-tradicional-conteudo p,
     .comida-tradicional-container .ler-mais,
-    .btn.btn-cardapio{
+    .btn.btn-cardapio {
         font-size: 1.6rem;
     }
 
@@ -222,11 +242,67 @@
             opacity: 0;
             transform: translateY(-30px);
         }
-        to{
+
+        to {
             opacity: 1;
             transform: translateY(0px);
         }
     }
+
+    /*LOCALIZACAO*/
+
+    .localizacao {
+        margin-top: 7rem;
+      }
+
+    .map-busca {
+        margin-bottom: 5rem;
+      }      
+
+    .localizacao h2 {
+        font-size: 2.4rem;
+        text-align: center;
+      }
     
+    .map-busca img {
+        width: 30rem;
+        height: 24rem;
+      }
+
+    .map-busca .text {
+        width: 26rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
+
+    .map-busca .btn-buscar {
+        width: 5rem;
+        height: 4rem;
+        font-size: 1.2REM;
+      }
+
+    /*footer*/  
+
+    .rodape{
+        flex-direction: column;
+        gap: 3rem;
+        height: 45vh;
+        padding: 0 4rem;
+    }
+
+    .footer-content-box h3{
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 1.6rem;
+    }
+
+    .footer-content-box p{
+        font-size: 1.4rem;
+    }
+
+    .footer-content{
+        width: 80%;
+        gap: 1rem;
+    }
 
 }

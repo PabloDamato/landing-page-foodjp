@@ -1,75 +1,30 @@
-.rodape {
-        max-width: 1440px;
-        margin:0 auto;
-        font: var(--font-principal);
-        
-        
-        
-        
-}
-
-.comentarios {
-    align-items: center;
-    justify-content: center;
+.rodape{
     display: flex;
-    
+
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 5rem;
+    height: 35vh;
 }
 
-
-.contact{
-    align-items: center;
-    justify-content: center;
+.footer-content{
     display: flex;
-    flex-direction:column;
-    line-height: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
 }
 
-.contact h1 {
-   
-    font: var(--font-principal);
-    font-weight: 800;
-    line-height: 32px;
+.footer-content-box h3{
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+    font-family: var(--font-principal);
+    font-weight: 500;
 }
 
-.about-us {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    line-height: 32px;
-    padding: 4rem;
-}
-
-.about-us h1{
-    font: var(--font-principal);
-    font-weight: 800;
-    line-height: 32px;
-}
-
-.services {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-    line-height: 32px;
-}
-
-.services h1{
-    font: var(--font-principal);
-    font-weight: 800;
-    line-height: 32px;
-    
-    
-}
-
-.services p {
-    line-height: 32px;
-    
-}
-
-.comentarios img {
-    position: abosolute;
-    margin-right: 30px;
-    margin-bottom: 50px;
+.footer-content-box p{
+    font-family: var(--font-secundaria);
+    font-size: 1.8rem;
+    color: var(--gray);
+    line-height: 2;
 }
