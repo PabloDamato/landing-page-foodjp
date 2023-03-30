@@ -1,0 +1,70 @@
+.comida-oriental{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 2rem 2rem 0 2rem;
+    /* padding: 2rem; */
+    /* height: 100vh; */
+}
+
+.comida-oriental-container,
+.comida-tradicional-container{
+    margin-top: calc(18rem - 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comida-oriental-conteudo h2,
+.comida-tradicional-container h2{
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: var(--font-principal)
+}
+
+.comida-oriental-conteudo p{
+    max-width: 50.2rem;
+    line-height: 1.9;
+    margin-top: 2.4rem;
+    margin-bottom: 4.8rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: var(--font-secundaria);
+}
+
+.btn.btn-cardapio{
+    background-color: var(--red);
+    color: var(--white);
+    border: 2px solid var(--red);
+    padding: 1rem 9rem;
+    transition: .3s ease;
+}
+
+.btn.btn-cardapio:hover{
+    transform: scale(1.1);
+}
+
+.comida-tradicional-imagem img{
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+/* .comida-tradicional-container{
+    margin-bottom: 10rem;
+} */
+
+.comida-tradicional-container p{
+    max-width: 50rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 2.4rem 0 4rem 0;
+    font-family: var(--font-secundaria);
+}
+
+.comida-tradicional-container .ler-mais{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--red);
+    text-decoration: underline;
+    font-family: var(--font-secundaria);
+}

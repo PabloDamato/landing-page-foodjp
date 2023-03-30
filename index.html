@@ -8,13 +8,104 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script type="text/javascript" src="./assets/js/main.js" defer></script>
     <title>Landing-page FoodJP</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <header id="header" class="cabecalho"></header>
-    <section id="eastern-food" class="comida-oriental"></section>
-    <section id="more-popular" class="mais-populares"></section>
-    <section id="comments" class="comentarios"></section>
+    <header id="header" class="cabecalho">
+        <a href="#">
+            <h1 class="logo">Food<span>JP</span></h1>
+        </a>
+ 
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <input class="btn btn-enter" type="button" value="Entrar">
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </header>
+    
+    <section id="eastern-food" class="comida-oriental">
+        <div class="comida-oriental-container">
+            <div class="comida-oriental-conteudo">
+                <h2>Comida Oriental</h2>
+                <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e
+                    ingredientes frescos.</p>
+                <input class="btn btn-cardapio" type="button" value="Cardápio">
+            </div>
+            <div class="comida-oriental-imagem">
+                <img src="assets/img/sushi-japanese.png" alt="imagem de sushi japones com rashi">
+            </div>
+        </div>
+        <div class="comida-tradicional-container">
+            <div class="comida-tradicional-imagem">
+                <img src="assets/img/img segurando prato.png" alt="imagem de sushi japones com rashi">
+            </div>
+            <div class="comida-tradicional-conteudo">
+                <h2>Feita de forma
+                    <br>Tradicional
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+                <a href="/" class="ler-mais">Ler mais sobre o modo de preparo </a>
+            </div>
+        </div>
+    </section>
+    <section id="more-popular" class="mais-populares">
+        <h2 class="more-title">Mais Populares</h2>
+        <div class="container-more-popular">
+            <div class="options">
+                <img src="./assets/img/img-1.svg" alt="Ramen de Frango">
+                <h2 class="options-title">Ramen de Frango</h2>
+                <p class="description-options">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>R$ 30</span>
+            </div>
+            <div class="options">
+                <img src="./assets/img/img-2.svg" alt="Ramen Apimentado">
+                <h2 class="options-title">Ramen Apimentado</h2>
+                <p class="description-options">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>R$ 30</span>
+            </div>
+            <div class="options">
+                <img src="./assets/img/img-3.svg" alt="Ramen Tradicional">
+                <h2 class="options-title">Ramen Tradicional</h2>
+                <p class="description-options">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>R$ 30</span>
+            </div>
+        </div>
+    </section>
+    <section id="comments" class="comentarios">
+        <h2 class="comments-title">Comentários</h2>
+        <div class="container-comments">
+            <div class="comments-user">
+                <img src="./assets/img/profile1.svg" alt="Imagem profile">
+                <h2 class="name-profile">Daniele Almeida</h2>
+                <p class="description-profile">Ótimo serviço! Encantada com a qualidade dos pratos.</p>
+                <div class="star">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                </div>
+            </div>
+            <div class="comments-user">
+                <img src="./assets/img/profile2.svg" alt="Imagem profile">
+                <h2 class="name-profile">Ricardo França</h2>
+                <p class="description-profile-2">Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+                <div class="star">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                    <img class="star-profile" src="./assets/img/star.svg" alt="Estrela">
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="location" class="localizacao">
         <h1>Localização</h1>
         <div class="mapa">
