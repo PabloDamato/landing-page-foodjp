@@ -185,7 +185,7 @@
 }
 
 
-@media(max-width: 420px) {
+@media(max-width: 475px) {
     .cabecalho {
         padding: 2.5rem 2rem 0;
     }
