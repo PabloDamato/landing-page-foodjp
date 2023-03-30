@@ -1,8 +1,9 @@
 .comida-oriental{
     max-width: 1250px;
     margin: 0 auto;
-    padding: 2rem;
-    height: 100vh;
+    padding: 2rem 2rem 0 2rem;
+    /* padding: 2rem; */
+    /* height: 100vh; */
 }
 
 .comida-oriental-container,
@@ -48,9 +49,9 @@
     border-radius: 1.6rem;
 }
 
-.comida-tradicional-container{
+/* .comida-tradicional-container{
     margin-bottom: 10rem;
-}
+} */
 
 .comida-tradicional-container p{
     max-width: 50rem;

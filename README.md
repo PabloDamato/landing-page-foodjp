@@ -59,3 +59,5 @@ Projeto realizado com o objetivo de reproduzir uma página de culinária orienta
   </tr>
 </table>
 
+## Deploy
+https://pablodamato.github.io/landing-page-foodjp/
