@@ -11,6 +11,16 @@
         border-radius: 3.2rem !important;
     }
 
+    #more-popular .container-more-popular .options img {
+        top: -10.8rem;
+        width: 29rem;
+        height: 29rem;
+    }
+
+    #more-popular .more-title {
+        margin-bottom: 16.2rem !important;
+    }
+
     .options .description-options {
         font-size: 1.8rem !important;
     }
