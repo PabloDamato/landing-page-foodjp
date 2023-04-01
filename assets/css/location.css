@@ -30,16 +30,28 @@
   height: 7rem;
   font-size: 2.4rem;
   padding: 0 6rem;
-  border-radius: 1REM 0 0 1rem;
+  border-radius: .5REM 0 0 .5rem;
 }
 
 .map-busca .btn-buscar {
   width: 18rem;
   height: 7rem;
-  border-radius: 0 1rem 1rem 0rem;
+  border-radius: 0 .5rem .5rem 0rem;
   background: var(--red);
-  border: none;
+  border: 2px solid var(--red);
   font-size: 2.4rem;
   color: var(--white);
   cursor: pointer;
+}
+
+.box-busca{
+  position: relative;
+}
+
+.box-busca input + span::before{
+  content: url('../img/pin.svg');
+  position: absolute;
+  top: 74%;
+  left: 20px;
+  transform: translateY(-50%);
 }

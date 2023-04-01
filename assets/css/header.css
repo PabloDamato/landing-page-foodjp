@@ -18,6 +18,16 @@
     color: var(--red);
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav{
+    margin-right: 24rem;
+}
+
 .navbar a{
     font-size: 2.4rem;
     color: var(--black);

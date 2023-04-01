@@ -104,19 +104,15 @@
 
 }
 
-@media(max-width: 900px) {
-    .map-busca .text {
-        width: 45rem;
-        height: 5rem;
+@media(max-width: 1050px) {
+    .navbar nav {
+        margin-right: 10rem;
     }
 
-    .map-busca .btn-buscar {
-        width: 13rem;
-        height: 5rem;
-      }
+
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
 
     #header .cabecalho,
     .comida-oriental {
@@ -158,6 +154,15 @@
         padding: 2.6rem 2rem;
     }
 
+    .btn-enter {
+        margin-left: 2rem;
+        padding: 1rem 3rem;
+        font-size: 1.8rem;
+        border: 2px solid var(--red);
+        background: var(--red);
+        color: var(--white);
+    }
+
     /*eastern-food*/
 
     .comida-oriental-container,
@@ -182,53 +187,8 @@
         text-align: center;
         margin-bottom: 5.6rem;
     }
-}
 
 
-@media(max-width: 475px) {
-    .cabecalho {
-        padding: 2.5rem 2rem 0;
-    }
-
-    #menu-icon {
-        font-size: 3.6rem;
-    }
-
-    .logo {
-        font-size: 1.8rem;
-    }
-
-    .btn-enter {
-        position: absolute;
-        top: 36%;
-        left: 2.8rem;
-        padding: 1rem 3rem;
-        font-size: 1.8rem;
-        border: 1px solid var(--red);
-        background: var(--red);
-        color: var(--white);
-        z-index: 11;
-        display: none;
-        animation: fade 0.3s ease-in-out
-    }
-
-    .btn.btn-enter:hover {
-        border: 1px solid var(--red);
-    }
-
-    .btn-enter.active {
-        display: block;
-    }
-
-    /*eastern-food*/
-
-    .comida-oriental-conteudo h2 {
-        font-size: 3.2rem;
-    }
-
-    .comida-tradicional-conteudo h2 {
-        font-size: 2.4rem;
-    }
 
     .comida-oriental-conteudo p,
     .comida-tradicional-conteudo p,
@@ -253,21 +213,173 @@
 
     .localizacao {
         margin-top: 7rem;
-      }
+    }
 
     .map-busca {
         margin-bottom: 5rem;
-      }      
+    }
+
+    .localizacao h2 {
+        text-align: center;
+    }
+
+    .map-busca img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .map-busca .text {
+        width: 40rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
+
+    .map-busca .btn-buscar {
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
+
+    .box-busca input+span::before {
+        top: 80%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+
+}
+
+@media(max-width: 768px) {
+    cabecalho {
+        padding: 2.5rem 2rem 0;
+    }
+
+    #menu-icon {
+        font-size: 3.6rem;
+    }
+
+    /*eastern-food*/
+
+    .comida-oriental-conteudo h2 {
+        font-size: 3.2rem;
+    }
+
+    .comida-tradicional-conteudo h2 {
+        font-size: 2.4rem;
+    }
+
+    .comida-oriental-conteudo p,
+    .comida-tradicional-conteudo p,
+    .comida-tradicional-container .ler-mais,
+    .btn.btn-cardapio {
+        font-size: 1.6rem;
+    }
+
+    /*LOCALIZACAO*/
+
+    .localizacao {
+        margin-top: 7rem;
+    }
+
+    .map-busca {
+        margin-bottom: 5rem;
+    }
 
     .localizacao h2 {
         font-size: 2.4rem;
         text-align: center;
-      }
-    
+    }
+
+
+    .map-busca .text {
+        width: 28rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
+
+    .map-busca .btn-buscar {
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
+
+    /*footer*/
+
+    .rodape {
+        flex-direction: column;
+        gap: 3rem;
+        height: 45vh;
+        padding: 0 4rem;
+    }
+
+    .footer-content-box h3 {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 1.6rem;
+    }
+
+    .footer-content-box p {
+        font-size: 1.4rem;
+    }
+
+    .footer-content {
+        width: 80%;
+        gap: 1rem;
+    }
+
+
+}
+
+
+
+@media(max-width: 475px) {
+    .cabecalho {
+        padding: 2.5rem 2rem 0;
+    }
+
+    #menu-icon {
+        font-size: 3.6rem;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    /*eastern-food*/
+
+    .comida-oriental-conteudo h2 {
+        font-size: 3.2rem;
+    }
+
+    .comida-tradicional-conteudo h2 {
+        font-size: 2.4rem;
+    }
+
+    .comida-oriental-conteudo p,
+    .comida-tradicional-conteudo p,
+    .comida-tradicional-container .ler-mais,
+    .btn.btn-cardapio {
+        font-size: 1.6rem;
+    }
+
+    /*LOCALIZACAO*/
+
+    .localizacao {
+        margin-top: 7rem;
+    }
+
+    .map-busca {
+        margin-bottom: 5rem;
+    }
+
+    .localizacao h2 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
     .map-busca img {
         width: 30rem;
         height: 24rem;
-      }
+    }
 
     .map-busca .text {
         width: 26rem;
@@ -279,30 +391,44 @@
         width: 5rem;
         height: 4rem;
         font-size: 1.2REM;
-      }
+    }
 
-    /*footer*/  
+    /*footer*/
 
-    .rodape{
+    .rodape {
         flex-direction: column;
         gap: 3rem;
         height: 45vh;
         padding: 0 4rem;
     }
 
-    .footer-content-box h3{
+    .footer-content-box h3 {
         font-size: 1.6rem;
         font-weight: 300;
         margin-bottom: 1.6rem;
     }
 
-    .footer-content-box p{
+    .footer-content-box p {
         font-size: 1.4rem;
     }
 
-    .footer-content{
+    .footer-content {
         width: 80%;
         gap: 1rem;
     }
 
+}
+
+@media(max-width: 350px) {
+    .map-busca .text {
+        width: 22rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
+
+    .map-busca .btn-buscar {
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.2REM;
+    }
 }
