@@ -1,4 +1,4 @@
-# Landing page FoodJP - em construção...
+# Landing page FoodJP
 
 ## ⌨ Descrição
 
